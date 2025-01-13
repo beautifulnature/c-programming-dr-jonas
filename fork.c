@@ -7,6 +7,8 @@ int main(){
     int x;
     FILE *fd;
 
+    x = fork();
+
     while(1){
 
         fd = fopen("test.txt", "a");
